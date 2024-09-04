@@ -1,0 +1,141 @@
+.cart{
+    margin-top: 150px;
+    padding-bottom: 145px;
+
+}
+.cart-items-title{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    color: grey;
+    font-size: max(1vw 12px);
+}
+.cart-items-item{
+    margin: 10px 0px;
+    color: black;
+}
+.cart-items-item img{
+    width: 50px;
+}
+.cart hr{
+    height: 1px;
+    background-color: #e2e2e2;
+    border: none;
+}
+.cart-items-item .cross{
+    cursor: pointer;
+}
+.cart-bottom{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: max(12vw, 20px);
+}
+.cart-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cart-total-details{
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+}
+.cart-total hr{
+    margin: 10px 0px;
+
+}
+.cart-total button{
+    border: none;
+    color: white;
+    background-color: tomato;
+    width: max(15vw, 200px);
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.cart-total button:hover{
+    background-color: rgb(254, 61, 26);
+}
+.cart-promocode{
+    flex: 1;
+}
+.cart-promocode p{
+    color: #555;
+}
+.cart-promocode-input{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eaeaea;
+    border-radius: 4px;
+}
+.cart-promocode-input input{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.cart-promocode-input button{
+    width: max(10vw, 150px);
+    padding: 12px 5px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media (max-width:750px){
+    .cart-bottom{
+        flex-direction: column-reverse;
+    }
+    .cart-promocode{
+        justify-content: start;
+    }
+}
+
+
+
+/* Style for quantity controls container */
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between buttons and quantity display */
+  }
+  
+  /* Style for buttons */
+  .quantity-controls button {
+    background-color: #f5f5f5; /* Light background */
+    border: 1px solid #ccc;    /* Border color */
+    border-radius: 4px;        /* Rounded corners */
+    padding: 5px 8px;         /* Padding inside buttons */
+    font-size: 12px;           /* Font size */
+    cursor: pointer;           /* Pointer cursor on hover */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+  }
+  
+  /* Hover and active states for buttons */
+  .quantity-controls button:hover {
+    background-color: tomato; /* Slightly darker background */
+    border-color: #ff0808;        /* Darker border */
+    color: white;
+  }
+  
+  .quantity-controls button:active {
+    background-color: #ccc;    /* Even darker background when clicked */
+  }
+  
+  /* Style for quantity display */
+  .quantity-controls span {
+    font-size: 16px;           /* Font size */
+    padding: 5px 10px;         /* Padding around quantity */
+    border: 1px solid #ddd;    /* Border color */
+    border-radius: 4px;        /* Rounded corners */
+    background-color: #fff;    /* Background color */
+    text-align: center;        /* Center align text */
+    min-width: 40px;           /* Minimum width */
+  }
+  

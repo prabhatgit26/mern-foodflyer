@@ -6,7 +6,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 console.log('Stripe instance:', stripe); // Check if stripe is correctly initialized
 
 const placeOrder = async (req, res) => {
-    const frontend_url = "http://localhost:3001";
+    const frontend_url = "http://localhost:3000";
     try {
         const newOrder = new orderModel({
             userId: req.body.userId,
@@ -44,7 +44,7 @@ const placeOrder = async (req, res) => {
         const session = await stripe.checkout.sessions.create({
             line_items: line_items,
             mode: 'payment',
-            success_url: `${frontend_url}/verify?success=true&orderId=${newOrder._id}`,
+            success_url: `${frontend_url}/myorders`,
             cancel_url: `${frontend_url}/verify?success=false&orderId=${newOrder._id}`,
         });
 

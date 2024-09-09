@@ -9,7 +9,7 @@ const LoginPopup = ({setShowLogin}) => {
 
   const {url, setToken} = useContext(StoreContext);
 
-    const [currState,setCurrState] = useState("Login");
+  const [currState,setCurrState] = useState("Login");
   const [data, setData] = useState({
     name:"",
     email:"",

@@ -1,7 +1,7 @@
 # FoodFlyer : Delivering Deliciously, Anytime.
 
 
-## FoodFlyer is an advanced food delivery platform built with the MERN stack (MongoDB, Express, React, Node.js), offering a complete full-stack solution. The frontend, powered by React and Vite, ensures a fast, responsive, and user-friendly interface, providing a smooth experience for customers ordering food. The backend leverages Node.js and Express for seamless server-side operations, while MongoDB handles the database, efficiently managing restaurant menus, user accounts, and order tracking. Key features include secure authentication, real-time order updates, dynamic restaurant and menu filtering, and seamless integration with the Stripe payment gateway. FoodFlyer delivers a scalable, modern web app that guarantees a hassle-free food ordering experience for users and streamlined management for restaurants.
+FoodFlyer is an advanced food delivery platform built with the MERN stack (MongoDB, Express, React, Node.js), offering a complete full-stack solution. The frontend, powered by React and Vite, ensures a fast, responsive, and user-friendly interface, providing a smooth experience for customers ordering food. The backend leverages Node.js and Express for seamless server-side operations, while MongoDB handles the database, efficiently managing restaurant menus, user accounts, and order tracking. Key features include secure authentication, real-time order updates, dynamic restaurant and menu filtering, and seamless integration with the Stripe payment gateway. FoodFlyer delivers a scalable, modern web app that guarantees a hassle-free food ordering experience for users and streamlined management for restaurants.
 
 Home Page :
 

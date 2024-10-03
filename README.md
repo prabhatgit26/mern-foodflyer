@@ -1,13 +1,46 @@
+#FoodFlyer: Delivering Deliciously, Anytime.
+
+FoodFlyer is an advanced food delivery platform built with the MERN stack (MongoDB, Express, React, Node.js), offering a complete full-stack solution. The frontend, powered by React and Vite, ensures a fast, responsive, and user-friendly interface, providing a smooth experience for customers ordering food. The backend leverages Node.js and Express for seamless server-side operations, while MongoDB handles the database, efficiently managing restaurant menus, user accounts, and order tracking. Key features include secure authentication, real-time order updates, dynamic restaurant and menu filtering, and seamless integration with the Stripe payment gateway. FoodFlyer delivers a scalable, modern web app that guarantees a hassle-free food ordering experience for users and streamlined management for restaurants.
+
+Home Page :
+
 ![1](https://github.com/user-attachments/assets/d1ca4e39-349a-4996-aea4-9b24d6b47311)
+
+Menu Page :
+
 ![2](https://github.com/user-attachments/assets/52267352-3129-4941-a38f-1d418fee952a)
 ![3](https://github.com/user-attachments/assets/218fd983-1e12-42c7-9450-66b0b5c35e11)
+
+Add To Cart :
+
 ![4](https://github.com/user-attachments/assets/f81ab11c-787b-4425-9ac7-876389184247)
+
+Delivery Information :
+
 ![5](https://github.com/user-attachments/assets/f751933b-cf82-4836-8679-ae5f1d017dcb)
+
+Payment Gateway :
+
 ![6](https://github.com/user-attachments/assets/a0d3e66a-76a3-4bca-9c9d-0cb6f7db6fd0)
+
+My Orders section :
+
 ![7](https://github.com/user-attachments/assets/2caded1f-e1ad-4d7c-80a2-31113eca3e54)
+
+#FoodFlyer Admin panel -
+
+Add Items :
+
 ![8](https://github.com/user-attachments/assets/f03c7a54-161f-4757-b196-351c30981848)
+
+List of Items :
+
 ![9](https://github.com/user-attachments/assets/67b0fe2e-0bef-487d-a3a7-964431e66f62)
+
+Orders :
+
 ![10](https://github.com/user-attachments/assets/7ee0e50b-6164-456b-8f65-cf83b12a4542)
+
 ![11](https://github.com/user-attachments/assets/21e06850-b8cf-42c8-8aa1-ba0b8113ac10)
 
 

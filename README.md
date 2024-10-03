@@ -15,7 +15,7 @@ Add To Cart :
 
 ![4](https://github.com/user-attachments/assets/f81ab11c-787b-4425-9ac7-876389184247)
 
-Delivery Information :
+Delivery Information and Cart Totals :
 
 ![5](https://github.com/user-attachments/assets/f751933b-cf82-4836-8679-ae5f1d017dcb)
 
@@ -40,6 +40,8 @@ List of Items :
 Orders :
 
 ![10](https://github.com/user-attachments/assets/7ee0e50b-6164-456b-8f65-cf83b12a4542)
+
+Download the FoodFlyer App :
 
 ![11](https://github.com/user-attachments/assets/21e06850-b8cf-42c8-8aa1-ba0b8113ac10)
 
